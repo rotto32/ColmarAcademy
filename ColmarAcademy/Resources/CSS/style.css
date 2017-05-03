@@ -1,6 +1,6 @@
 /*Body*/
 *{
-  font-family: sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 
@@ -47,7 +47,10 @@ header img{
   line-height: 2.35;
 }
 
-
+/*.mobilemenu{
+  display: none;
+}
+*/
 /*Top Div*/
 
 .top{
@@ -110,31 +113,39 @@ header img{
 .leftsecond{
   display: flex;
   flex-direction: column;
+  width: 60%;
 
 }
 
 .leftsecond img{
   padding: 32px 24px;
+
 }
 
 .leftsecond h1{
   display: flex;
-  justify-content: center;
+
   font-size: 64px;
   font-weight: bold;
   font-family: "Roboto Condensed";
   color: hsla(0, 0%, 19%, 1);
   padding-bottom: 64px;
-  padding-left: 20px;
+  padding-left: 24px;
 }
 
 .leftsecond p{
   display: flex;
-  justify-content: center;
+
   width: 70%;
   font-size: 24px;
   font-family: "Roboto Condensed";
   color: hsla(0, 0%, 19%, 1);
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+.cite{
+  font-size: 68px;
 }
 
 /*right column of second section */
@@ -160,8 +171,7 @@ header img{
   display: flex;
   justify-content: flex-start;
   margin: 16px 16px;
-
-
+  width: 35%;
 }
 
 .sectiontitle{
@@ -169,6 +179,7 @@ header img{
   font-family: "Roboto Condensed";
   color: hsla(0, 0%, 19%, 1);
 }
+
 
 /*subsections of right column of second section*/
 
@@ -193,6 +204,16 @@ header img{
   border: 2px solid lightgrey;
 }
 
+.rightsecondtext{
+  padding-top: 23%;
+  padding-bottom: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
 /*.rightsecondtext{
   display: flex;
   justify-content: center;
@@ -206,6 +227,313 @@ header img{
 }*/
 
 .link p{
-  color: lightblue;
+  color: #2471A3;
   font-size: 16px;
+}
+
+
+/* Learn Section*/
+
+.learn{
+  display: flex;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.learn h1{
+  font-size: 74px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  color: hsla(0, 0%, 19%, 1);
+  padding: 64px 20px;
+  text-align: center;
+}
+
+
+.boxlearn{
+  display: block;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 16px 16px;
+  width: 500px;
+  height: 500px;
+}
+
+.boxlearn img{
+  height: auto;
+  width: 100%;
+
+}
+
+.boxlearn h3{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  color: hsla(0, 0%, 19%, 1);
+  padding:16px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxlearn h4{
+  color: grey;
+  padding: 8px 16px;
+  font-size: 24px;
+}
+
+.boxlearn p{
+  color: grey;
+  padding: 8px 16px;
+  font-size: 24px;
+}
+
+/* Thesis section*/
+
+.thesis{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.thesis h1{
+  font-size: 74px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  color: hsla(0, 0%, 19%, 1);
+  padding: 64px 20px;
+  text-align: center;
+}
+
+.video{
+  display: block;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  height: 336px;
+}
+
+video{
+  border: 2px lightgrey solid;
+
+}
+
+.video h3{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  color: hsla(0, 0%, 19%, 1);
+  padding:16px 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.video p{
+  display: flex;
+  font-size: 24px;
+  font-family: "Roboto Condensed";
+  color: grey;
+  padding-bottom: 64px;
+  padding-left: 20px;
+  width: 700px;
+
+}
+
+.videosection{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 32px;
+}
+
+.rightvideo{
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+
+.topright{
+  display: flex;
+  background-color: lightgrey;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 40px;
+
+}
+
+.topright h3{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  color: hsla(0, 0%, 19%, 1);
+  padding:16px 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.topright img{
+  padding: 16px 16px;
+}
+
+.bottomright{
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomright h3{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  color: hsla(0, 0%, 19%, 1);
+  padding:16px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videotext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+
+}
+
+.videotext p{
+  color: grey;
+  font-size: 24px;
+}
+
+.bottomright img{
+  padding: 16px 16px;
+}
+
+/*Footer*/
+
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  font-size: 20px;
+  border-top: 1px lightgrey solid;
+  color: grey;
+  padding: 16px 24px;
+  justify-content: space-between;
+}
+
+footer p{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+@media only screen and (max-width: 760px){
+  .mobilemenu{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .titleColmar{
+    display: none;
+  }
+
+  .titleAcademy{
+    display: none;
+  }
+
+  .top img{
+    display: none;
+  }
+
+  .leftsecond{
+    display: none;
+  }
+
+  .top{
+    padding-bottom: 32px;
+  }
+
+  .learn{
+
+    border-top: 1px lightgrey solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .learn h1{
+    background-color: white;
+  }
+
+  .row{
+    background-color: white;
+    border-top: 1px lightgrey solid;
+    display: block;
+  }
+
+  .boxlearn{
+    height:auto;
+    margin: 16px 16px;
+    padding: 8px 8px;
+    background-color: lightgrey;
+
+  }
+
+  .learn img{
+    display: none;
+  }
+
+  .learn h4{
+    display: none;
+  }
+
+  .learn p{
+    display: none;
+  }
+
+  .boxlearn h3{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectiontitlethesis{
+    border-top: 1px lightgrey solid;
+    padding: 32px 0px;
+  }
+
+  .rightvideo{
+    display:none;
+  }
+  video{
+    width: 100%;
+  }
+
+  .video h3{
+    display: none;
+  }
+
+
+
+  footer h4{
+    padding: 100px 0px;
+  }
+
+
+
+
 }

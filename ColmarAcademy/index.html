@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href=".\Resources\Icons\font-awesome-4.7.0\css\font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./Resources/CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="./Resources/CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
@@ -18,6 +19,11 @@
         <li>For companies</li>
         <li>Sign In</li>
       </ul>
+
+      <ul class ="mobilemenu">
+        <li><i class="fa fa-destop"></i></li>
+        <li></li>
+      </ul>
     </header>
 
     <div class ="top">
@@ -33,38 +39,44 @@
 
     <div class= "second">
       <div class = "leftsecond">
-       <img src=".\\Resources\images\information-main.jpg" alt="">
+       <img src=".\\Resources\images\information-main.jpg" alt="Man reading a book">
        <h1>It doesn't hurt to keep practicing</h1>
        <p>"Curabitur ultricies ipsum eu mi maximus, sit amet lobortis
         ligula tempor. Donec id consectetur nunc, nec feugiat dolor. Vestibulum ex augue, consectetur ut iaculis ac, imperdiet vel risus. Etiam pellentesque est vitae sollicitudin porta. Mauris consectetur ex sem, eu finibus justo cursus eget."</p>
-       <p div = "cite">Emmanuel, Sr Strategist at Hiring.com</p>
+       <p class = "cite">Emmanuel, Sr Strategist at Hiring.com</p>
       </div>
 
       <div class= "rightsecond">
         <div class= "orientation">
-           <img src=".\\Resources\images\information-orientation.jpg" alt="">
+           <img src=".\\Resources\images\information-orientation.jpg" alt="People walking on a pathway">
          <div class = "rightsecondtext">
            <span class ="sectiontitle">Orientation Date</span>
            <p>Tue 10/11 Wed 10/12: 8am-3pm</p>
-           <p class = "link">Read More</p>
+           <div class = "link">
+            <p>Read More</p>
+           </div>
          </div>
         </div>
 
         <div class = "campus">
-          <img src=".\\Resources\images\information-campus.jpg" alt="">
+          <img src=".\\Resources\images\information-campus.jpg" alt="Cafe room">
           <div class = "rightsecondtext">
            <span class ="sectiontitle">Our Campus</span>
            <p>Find which campus is close by you</p>
-           <p class = "link">Read More</p>
+           <div class = "link">
+            <p>Read More</p>
+           </div>
          </div>
         </div>
 
         <div class = "guest">
-          <img src=".\\Resources\images\information-guest-lecture.jpg" alt="">
+          <img src=".\\Resources\images\information-guest-lecture.jpg" alt="Picure of a man">
           <div class = "rightsecondtext">
            <span class= "sectiontitle">Guest Lecture</span>
            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-           <p class = "link">Read More</p>
+           <div class = "link">
+            <p>Read More</p>
+           </div>
          </div>
         </div>
 
@@ -72,10 +84,111 @@
     </div>
 
     <div class = "learn">
+      <div class = "title">
+       <h1>Start Learning</h1>
+      </div>
+
+      <div class= "row">
+       <div class="boxlearn">
+         <img src=".\\Resources\images\course-software.jpg" alt="Computes">
+         <h3>Software engineering</h3>
+         <h4>COURSES</h4>
+         <p>Web development, Mobile Development, iOS, APIs</p>
+       </div>
+
+       <div class="boxlearn">
+         <img src=".\\Resources\images\course-computer-art.jpg" alt="Hand holding a phone">
+         <h3>Computer art</h3>
+         <h4>COURSES</h4>
+         <p>Imaging & Design, Web Design, Motion Graphics &
+           Visual Effects, Computer Animation</p>
+       </div>
+
+       <div class="boxlearn">
+         <img src=".\\Resources\images\course-design.jpg" alt="Camera">
+         <h3>Design</h3>
+         <h4>COURSES</h4>
+         <p>User Experience Design, User Research, Visual Design</p>
+       </div>
+     </div>
+
+      <div class = "row">
+       <div class="boxlearn">
+         <img src=".\\Resources\images\course-data.jpg" alt="Laptop">
+         <h3>Data</h3>
+         <h4>COURSES</h4>
+         <p>Data Science, Big Data, SQL, Data Visualization</p>
+       </div>
+
+       <div class="boxlearn">
+         <img src=".\\Resources\images\course-business.jpg" alt="Chess board">
+         <h3>Business</h3>
+         <h4>COURSES</h4>
+         <p>Product Development, Business Development, Startup</p>
+       </div>
+
+       <div class="boxlearn">
+         <img src=".\\Resources\images\course-marketing.jpg" alt="A smartwatch">
+         <h3>Marketing</h3>
+         <h4>COURSES</h4>
+         <p>Analytics, Content Marketing, Mobile Marketing</p>
+       </div>
+     </div>
+
+
+
+      <div>
     </div>
 
     <div class = "thesis">
+
+      <div class = "sectiontitlethesis">
+        <h1>Thesis</h1>
+      </div>
+
+
+      <div class= "videosection">
+       <div class = "video">
+         <video width="700px" controls="play">
+         <source src= ".\\Resources\videos\thesis.mp4" type="video/mp4">
+         </video>
+          <h3>Reimagine urban</h3>
+          <p>"Curabitur ultricies ipsum eu mi maximus, sit amet lobortis
+          ligula tempor. Donec id consectetur nunc, nec feugiat dolor.
+          Vestibulum ex augue, consectetur ut iaculis ac,
+          imperdiet vel risus. Etiam pellentesque est vitae sollicitudin
+          porta. Mauris consectetur ex sem, eu finibus justo cursus eget."</p>
+       </div>
+
+       <div class = "rightvideo">
+         <div class = "topright">
+          <img src = ".\\Resources\images\thesis-fisma.jpg" alt="Desk full of papers">
+          <div class= "videotext">
+           <h3>Fima: Design</h3>
+           <p>Designer showcase of new prototype product</p>
+          </div>
+         </div>
+
+         <div class = "bottomright">
+           <img src=".\\Resources\images\thesis-now-and-then.jpg" alt="New York skyline">
+           <div class= "videotext">
+            <h3>Now and Then</h3>
+            <p>Research study about New York</p>
+          </div>
+         </div>
+       </div>
+      </div>
     </div>
+
+
+   <footer>
+     <h4>&copy; 2016 Colmar Academy. All rights reserved</h4>
+     <p>Terms   Privacy</p>
+
+
+
+   </footer>
+
 
   </body>
 </html>
